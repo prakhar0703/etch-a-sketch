@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* .bigdawg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 #container {
     display: flex;
     flex-direction: column;
@@ -21,5 +36,15 @@
     border-style: solid;
     border-width: 1px;
     border-color: black;
+}
+
+.dimensionButton {
+    margin-bottom: 3em;
+    padding: 0.7em;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: groove;
+    border-color:blanchedalmond;
+    background-color:chocolate;
 }
 
