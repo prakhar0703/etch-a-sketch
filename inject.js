@@ -11,5 +11,10 @@ for(let i = 0; i < dimensions; i++){
     }
 }
 const outerdiv = document.querySelector(".outerdiv");
-const innerdiv = document.querySelector(".innerdiv");
-innerdiv.addEventListener("mouseover", () => {innerdiv.setAttribute("background-color", "black")})
+const innerdiv = document.querySelectorAll(".innerdiv");
+innerdiv.forEach(div => {
+    div.addEventListener("mouseover", () => {div.style.backgroundColor = "black";})
+});
+
+   
+
